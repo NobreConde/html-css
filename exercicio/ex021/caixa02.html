@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping TAGs</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        header h1{
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: rgba(99, 92, 92, 0.699);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.548);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(99, 92, 92, 0.699);
+            text-align: center;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                    <h2>Noticia teste</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae aperiam mollitia facere, distinctio molestiae deserunt voluptate sint laboriosam cupiditate odio at laborum, optio voluptates quia, ipsa asperiores quam! Id, maxime!</p>
+                    <aside>
+                        <p>Artigo escrito por mim mesmo</p>
+                    </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por mim mesmo</p>
+    </footer>
+</body>
+</html>
